@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "car": {
+      "_all": {
+        "enabled": true
+      },
+      "properties": {
+        "year": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "text"
+        },
+        "id": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
